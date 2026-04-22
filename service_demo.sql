@@ -21,3 +21,5 @@ CREATE TABLE shippings (
     address VARCHAR(255),
     status VARCHAR(50)
 );
+
+ALTER TABLE orders ADD COLUMN payment_method VARCHAR(50) NULL;
